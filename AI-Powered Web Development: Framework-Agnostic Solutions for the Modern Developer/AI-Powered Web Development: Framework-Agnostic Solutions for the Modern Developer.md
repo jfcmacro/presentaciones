@@ -1,5 +1,5 @@
 ---
-title: Agnostic Web Development
+title: AI-Powered Web Development Framework-Agnostic Solution for the Modern Developer
 author:  Juan Francisco Cardona McCormick
 bibliographic: references.bib
 ---
@@ -414,7 +414,11 @@ Soto specifies different Software Engineering Models[^fn2]
 
 * Prompt Engineering is our agnostic tool
 * Follow prompt engineering principles, but apply them with criteria tailored to the specific context of the target application. 
-* 
+* Direction and Structure Are Essential
+* Specify Output Formats and Standards
+* Use Examples and Specifications
+* Quality Assurance Is Integral
+* Divide and Delegate Tasks
 
 ---
 
