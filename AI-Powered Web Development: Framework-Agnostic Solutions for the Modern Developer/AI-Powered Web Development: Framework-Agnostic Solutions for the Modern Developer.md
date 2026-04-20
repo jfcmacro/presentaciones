@@ -4,6 +4,11 @@ author:  Juan Francisco Cardona McCormick
 bibliographic: references.bib
 ---
 
+# Link
+
+<img src="./images/qr_presentacion.png" alt="QR Presentación" style="zoom:150%;" />
+
+---
 
 # Agenda
 
@@ -18,14 +23,18 @@ bibliographic: references.bib
 3. Where is the "agnostic" in Generative AI?
 4. Introduction to Prompt Engineering
 5. Understanding LLM?
-6. Moving to Chat
-7. Donald Knuth doing AI
-8. The Five Principles of Prompting
+6. Donald Knuth doing AI
+7. The Five Principles of Prompting
    1. Give Direction
    2. Specific Format
    3. Provides Examples
    4. Evaluate Quality
    5. Divide Labor
+
+---
+
+# Agenda (2)
+
 9. Web Development
    1. Web
    2. Rest API
@@ -40,9 +49,28 @@ bibliographic: references.bib
 11. Conclusions
 12. References
 
+---
+
 # Development
 
+---
+
 ## 1. Introduction
+
+### Personal
+
+* Juan Francisco Cardona McCormick 
+* Senior Talent Development Specialist
+* EPAM Campus
+* juan_cardona@epam.com
+
+---
+
+### Description
+
+* A dinosaur trying to evolve
+* A first approach to the topic of Generative AI
+* An exploration of the topic of Prompt Engineering.
 
 ---
 
@@ -69,25 +97,26 @@ Soto specifies different Software Engineering Models[^fn2]
 
 ### Traditional Software Engineering
 
-![image-20260419184036645](./images/image-20260419184036645.png)
+![Traditional Software Engineering](./images/image-20260419184036645.png)
+
 
 ---
 
 ### Prompt Engineering
 
-![image-20260419183412125](./images/image-20260419183412125.png)
+![Prompt Engineering](./images/image-20260419183412125.png)
 
 ---
 
 ### Spec-Driven Development
 
-![image-20260419184218393](./images/image-20260419184218393.png)
+![Spec-Driven Development](./images/image-20260419184218393.png)
 
 ---
 
 ### Modern Software Engineering
 
-![image-20260419184455754](./images/image-20260419184455754.png)
+![Modern Software Engineering](./images/image-20260419184455754.png)
 
 ---
 
@@ -96,6 +125,10 @@ Soto specifies different Software Engineering Models[^fn2]
 ### What is Agnostic? 
 
 > "Agnostic, in an [information technology](https://www.techtarget.com/searchdatacenter/definition/IT) (IT) context, refers to something that is generalized so that it is [interoperable](https://www.techtarget.com/searchapparchitecture/definition/interoperability) among various systems. The term can refer to [software](https://www.techtarget.com/searchapparchitecture/definition/software) and [hardware](https://www.techtarget.com/searchnetworking/definition/hardware), as well as [business processes](https://www.techtarget.com/searchcio/definition/business-process) or practices."[^fn4]
+
+---
+
+### What is Agnostic?(2)
 
 > "... refers to the interoperability and compatibility capacity of a computing component between various systems and environments, without requiring special adaptation. The term does not refer only to software and hardware but also to processes and tasks."[^fn5]
 
@@ -143,7 +176,7 @@ Soto specifies different Software Engineering Models[^fn2]
 * The input is called the *prompt*, and the output is called the *completion* or sometimes, the *response*:
 * Image: [^fn6]
 
-![image-20260420084601131](./images/image-20260420084601131.png)
+![LLM](./images/image-20260420084601131.png)
 
 ---
 
@@ -155,6 +188,8 @@ Soto specifies different Software Engineering Models[^fn2]
 * *Training set*
 * The resulting completion should be the text that is most likely to continue the original document
 * ***Models mimic***
+
+
 
 ---
 
@@ -173,7 +208,7 @@ Soto specifies different Software Engineering Models[^fn2]
 * [How many R's in "Strawberry"](https://www.inc.com/kit-eaton/how-many-rs-in-strawberry-this-ai-cant-tell-you.html)
 * Image [^fn6]
 
-![image-20260420090038920](./images/image-20260420090038920.png)
+![Tokens](./images/image-20260420090038920.png)
 
 ---
 
@@ -197,7 +232,7 @@ Soto specifies different Software Engineering Models[^fn2]
 
 * Image: [^fn6]
 
-![image-20260420092201614](./images/image-20260420092201614.png)
+![Auto-Regressive Models](./images/image-20260420092201614.png)
 
 ---
 
@@ -217,7 +252,7 @@ Soto specifies different Software Engineering Models[^fn2]
 * The process under the hood that chooses the actual token is called *sampling*
 * Image: [^fn6]
 
-<img src="./images/image-20260420094344975.png" alt="image-20260420094344975" style="zoom:80%;" />
+![Probabilities](./images/image-20260420094344975.png)
 
 ---
 
@@ -230,11 +265,9 @@ Soto specifies different Software Engineering Models[^fn2]
 
 ---
 
-## 6. Moving to Chat
-
 ---
 
-## 7. Donald Knuth doing Generative AI
+## 6. Donald Knuth doing Generative AI
 
 * [Claude's Cycle](https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf)
 
@@ -242,7 +275,7 @@ Soto specifies different Software Engineering Models[^fn2]
 
 ---
 
-## 8. The Five Principles of Prompting
+## 7. The Five Principles of Prompting
 
 ### Problems of prompting
 
@@ -325,7 +358,7 @@ Soto specifies different Software Engineering Models[^fn2]
 
 ---
 
-## 9 Web Development
+## 8 Web Development
 
 * Monolithic Architecture
 * Micro-services Architecture
@@ -360,7 +393,7 @@ Soto specifies different Software Engineering Models[^fn2]
 
 ---
 
-## 10 Prompt Engineering in Monolithic Architecture
+## 9 Prompt Engineering in Monolithic Architecture
 
 ### Give Direction
 
@@ -410,7 +443,7 @@ Soto specifies different Software Engineering Models[^fn2]
 
 ---
 
-## 11 Conclusions
+## 10 Conclusions
 
 * Prompt Engineering is our agnostic tool
 * Follow prompt engineering principles, but apply them with criteria tailored to the specific context of the target application. 
